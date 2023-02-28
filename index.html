@@ -29,23 +29,26 @@
     </div>
     <div class = "extrasSection">
         <h2 id = "extrasIntro", onclick = "extrasClick()">Extra Resources?</h2>
-        <h3 id = "extrasPrompt">Jerrily Info:</h3>
-        <ul id = "listOfExtras" style = "list-style-type: disc">
-            <li>
-                <button id = "jerryQuiz" onclick = "quizClick()">Take the Jerry Quiz</button>
-            </li>
-        </ul>
-        <div id = "jerryFirstQuestion">
-            <label for = "villagers">What is the villager's name?</label>
-            <br/>
-            <input type = "checkbox" id = "firstChoice">
-            <label for = "firstChoice">Gerry</label><br><br>
-            <input type = "checkbox" id = "secondChoice">
-            <label for = "secondChoice">Berry</label><br><br>
-            <input type = "checkbox" id = "thirdChoice">
-            <label for = "thirdChoice">Larry</label><br><br>
-            <input type = "checkbox" id = "fourthChoice">
-            <label for = "fourthChoice">Jerry</label>
+        <div class = "extrasContent">
+            <h3 id = "extrasPrompt">Jerrily Info:</h3>
+            <ul id = "listOfExtras" style = "list-style-type: disc">
+                <li>
+                    <button id = "jerryQuiz" onclick = "quizClick()">Take the Jerry Quiz</button>
+                </li>
+            </ul>
+            <div id = "jerryFirstQuestion">
+                <label for = "villagers">What is the villager's name?</label>
+                <br/>
+                <input type = "checkbox" id = "firstChoice">
+                <label for = "firstChoice">Gerry</label><br><br>
+                <input type = "checkbox" id = "secondChoice">
+                <label for = "secondChoice">Berry</label><br><br>
+                <input type = "checkbox" id = "thirdChoice">
+                <label for = "thirdChoice">Larry</label><br><br>
+                <input type = "checkbox" id = "fourthChoice">
+                <label for = "fourthChoice">Jerry</label>
+            </div>
+            <button id = "stopJerryQuiz" onclick = "stopQuiz()">Stop</button>
         </div>
     </div>
     <script src = "script.js"></script>
